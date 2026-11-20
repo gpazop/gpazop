@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="83" viewBox="0 0 880 83" role="img" font-family="sans-serif">
+<title>Neurito. Mascota virtual guiada por una red neuronal. NumPy · Pygame.</title>
+<style>
+text { font-family: 'Segoe UI', system-ui, sans-serif; }
+.name { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; }
+.mono { font-family: Consolas, 'Liberation Mono', monospace; letter-spacing: 1px; }
+.rise { animation: rise .75s cubic-bezier(.2,.65,.3,1) both; }
+.scan { animation: scan 1.3s .18s ease-out both; transform-origin: 50% 50%; }
+.lit { animation: lit .4s ease-out both; }
+.bar { transform-box: fill-box; transform-origin: bottom; animation: bar .65s ease-out both; }
+@keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes scan { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: none; } }
+@keyframes lit { from { opacity: .25; } to { opacity: 1; } }
+@keyframes bar { from { transform: scaleY(.03); } to { transform: scaleY(1); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect x="1" y="1" width="878" height="81" rx="16" fill="#f3ebdd"/>
+<path d="M648 1H863a16 16 0 0 1 16 16v49a16 16 0 0 1-16 16H621Z" fill="#204638"/>
+<rect x="1" y="1" width="878" height="81" rx="16" fill="none" stroke="#557064"/>
+<g class="rise" style="animation-delay:0.28s">
+  <text x="31" y="35" class="name" font-size="25" font-weight="bold" fill="#204638">Neurito</text>
+  <text x="31" y="62" font-size="18" fill="#204638">Mascota virtual guiada por una red neuronal</text>
+  <text x="802" y="48" font-size="19" text-anchor="end" fill="#f3ebdd">NumPy · Pygame</text>
+  <circle cx="841" cy="42" r="18" fill="#bc352a" stroke="#f3ebdd"/>
+  <path d="M834 35h14v14m0-14-14 14" fill="none" stroke="#f3ebdd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

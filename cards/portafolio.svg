@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="118" viewBox="0 0 280 118" role="img" font-family="sans-serif">
+<title>Portafolio. Mi web personal.</title>
+<style>
+text { font-family: 'Segoe UI', system-ui, sans-serif; }
+.name { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; }
+.mono { font-family: Consolas, 'Liberation Mono', monospace; letter-spacing: 1px; }
+.rise { animation: rise .75s cubic-bezier(.2,.65,.3,1) both; }
+.scan { animation: scan 1.3s .18s ease-out both; transform-origin: 50% 50%; }
+.lit { animation: lit .4s ease-out both; }
+.bar { transform-box: fill-box; transform-origin: bottom; animation: bar .65s ease-out both; }
+@keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes scan { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: none; } }
+@keyframes lit { from { opacity: .25; } to { opacity: 1; } }
+@keyframes bar { from { transform: scaleY(.03); } to { transform: scaleY(1); } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+
+<rect x="1" y="1" width="278" height="116" rx="18" fill="#bc352a" stroke="#557064"/>
+<g class="rise" style="animation-delay:0.14s">
+  <path d="M20 22h29v19H20zM23 34l4-4-4-4m8 8h8" fill="none" stroke="#f3ebdd" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="250" cy="28" r="17" fill="#f3ebdd" stroke="#bc352a"/>
+  <path d="M244 22h12v12m0-12-12 12" fill="none" stroke="#bc352a" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="19" y="72" class="name" font-size="27" font-weight="bold" fill="#f3ebdd">Portafolio</text>
+  <text x="20" y="98" font-size="16" fill="#f3ebdd">Mi web personal</text>
+</g>
+</svg>
