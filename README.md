@@ -4,6 +4,8 @@
 <a href="https://mi-primera-web-lilac.vercel.app/"><img src="./cards/portafolio.svg" width="32%" alt="Portafolio personal" /></a>&nbsp;<a href="#formación"><img src="./cards/formacion.svg" width="32%" alt="Formación en AWS, redes y soporte" /></a>&nbsp;<a href="https://github.com/gpazop?tab=repositories"><img src="./cards/repositorios.svg" width="32%" alt="Ver mis repositorios en GitHub" /></a>
 </div>
 
+<p align="center"><a href="https://gpazop.github.io/">Terminal interactiva</a></p>
+
 <p align="center" id="contribuciones">
 <a href="https://github.com/gpazop"><img src="./cards/contribuciones.svg" width="100%" alt="Contribuciones por mes, mejor racha, días activos y día con más contribuciones." /></a>
 </p>
