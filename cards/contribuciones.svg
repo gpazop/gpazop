@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="334" viewBox="0 0 880 334" role="img" font-family="sans-serif">
-<title>Contribuciones por mes. 108 en los últimos 12 meses del calendario. Mejor racha de 6 días. 27 de 357 días activos. 20 contribuciones en el día más activo.</title>
+<title>Contribuciones por mes. 108 en los últimos 12 meses del calendario. Mejor racha de 6 días. 27 de 358 días activos. 20 contribuciones en el día más activo.</title>
 <style>
 text { font-family: 'Segoe UI', system-ui, sans-serif; }
 .name { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; }
@@ -30,7 +30,7 @@ text { font-family: 'Segoe UI', system-ui, sans-serif; }
 <g fill="#204638">
   <text x="648" y="77" class="chart-title" font-size="41">6 <tspan class="chart-italic">días</tspan></text>
   <text x="648" y="101" font-size="15">Mejor racha</text>
-  <text x="648" y="165" class="chart-title" font-size="41">27 <tspan class="chart-italic">/ 357</tspan></text>
+  <text x="648" y="165" class="chart-title" font-size="41">27 <tspan class="chart-italic">/ 358</tspan></text>
   <text x="648" y="189" font-size="15">Días activos en el periodo</text>
   <text x="648" y="251" class="chart-title" font-size="41" fill="#bc352a">20</text>
   <text x="648" y="275" font-size="15">Día más activo · 01/11/2026</text>
